@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">The Five-Factor Workout</string>
+
+    <!--Days of the week-->
+    <string name="d1"><u>Monday</u></string>
+    <string name="d2"><u>Tuesday</u></string>
+    <string name="d3"><u>Thursday</u></string>
+    <string name="d4"><u>Friday</u></string>
+    <string name="d5"><u>Saturday</u></string>
+
+    <string name="w1">1</string>
+    <string name="w2">2</string>
+    <string name="w3">3</string>
+    <string name="w4">4</string>
+    <string name="w5">5</string>
+
+    <!--Common exercises-->
+    <string name="cwu">Cardio Warm-Up</string>
+    <string name="c">Cardio</string>
+    <string name="s">Stretch</string>
+
+    <!--Day1 exercises-->
+    <string name="d1s1">DB Chest Fly</string>
+    <string name="d1s2">DB Tap Squat</string>
+    <string name="d1a">Upper-body crunch</string>
+
+    <!--Day2 exercises-->
+    <string name="d2s1">DB Row</string>
+    <string name="d2s2">DB Dead Lift</string>
+    <string name="d2a">DB Lateral Flex/Extension</string>
+
+    <!--Day3 exercises-->
+    <string name="d3s1">DB Chest Press</string>
+    <string name="d3s2">DB Lunge</string>
+    <string name="d3a">Lower-body crunch</string>
+
+    <!--Day4 exercises-->
+    <string name="d4s1">Seated DB Shoulder Press</string>
+    <string name="d4s2">DB Pullover</string>
+    <string name="d4a">Upper-body twists</string>
+
+    <!--Day5 exercises-->
+    <string name="d5s1">DB Hammer Bicep Curl</string>
+    <string name="d5s2">DB Lying Triceps Extension</string>
+    <string name="d5a">Double Crunch</string>
+
+
+    <!--Day1 weights-->
+    <string name="d1w1w1">15</string>
+    <string name="d1w1w2">25</string>
+
+    <string name="d1w2w1">12.5</string>
+    <string name="d1w2w2">15</string>
+
+    <string name="d1w3w1">15</string>
+    <string name="d1w3w2">17.5</string>
+
+    <string name="d1w4w1">15</string>
+    <string name="d1w4w2">17.5</string>
+
+    <string name="d1w5w1">20</string>
+    <string name="d1w5w2">25</string>
+
+    <!--Day2 weights-->
+    <string name="d2w1w1">15</string>
+    <string name="d2w1w2">15</string>
+    <string name="d2w1w3">10</string>
+
+    <string name="d2w2w1">15</string>
+    <string name="d2w2w2">15</string>
+    <string name="d2w2w3">10</string>
+
+    <string name="d2w3w1">17.5</string>
+    <string name="d2w3w2">17.5</string>
+    <string name="d2w3w3">10</string>
+
+    <string name="d2w4w1">20</string>
+    <string name="d2w4w2">20</string>
+    <string name="d2w4w3">5</string>
+
+    <string name="d2w5w1">20</string>
+    <string name="d2w5w2">20</string>
+    <string name="d2w5w3">5</string>
+
+    <!--Day3 weights-->
+    <string name="d3w1w1">25</string>
+    <string name="d3w1w2">25</string>
+
+    <string name="d3w2w1">15</string>
+    <string name="d3w2w2">15</string>
+
+    <string name="d3w3w1">15</string>
+    <string name="d3w3w2">17.5</string>
+
+    <string name="d3w4w1">17.5</string>
+    <string name="d3w4w2">17.5</string>
+
+    <string name="d3w5w1">25</string>
+    <string name="d3w5w2">25</string>
+
+    <!--Day4 weights-->
+    <string name="d4w1w1">7.5</string>
+    <string name="d4w1w2">15</string>
+    <string name="d4w1w3">6</string>
+
+    <string name="d4w2w1">7.5</string>
+    <string name="d4w2w2">15</string>
+    <string name="d4w2w3">4</string>
+
+    <string name="d4w3w1">7.5</string>
+    <string name="d4w3w2">15</string>
+    <string name="d4w3w3">4</string>
+
+    <string name="d4w4w1">10</string>
+    <string name="d4w4w2">20</string>
+    <string name="d4w4w3">4</string>
+
+    <string name="d4w5w1">12.5</string>
+    <string name="d4w5w2">20</string>
+    <string name="d4w5w3">4</string>
+
+    <!--Day5 weights-->
+    <string name="d5w1w1">10</string>
+    <string name="d5w1w2">10</string>
+
+    <string name="d5w2w1">7.5</string>
+    <string name="d5w2w2">10</string>
+
+    <string name="d5w3w1">7.5</string>
+    <string name="d5w3w2">7.5</string>
+
+    <string name="d5w4w1">10</string>
+    <string name="d5w4w2">10</string>
+
+    <string name="d5w5w1">12.5</string>
+    <string name="d5w5w2">12.5</string>
+
+    <!--Week 1 sets and reps and rests-->
+    <string name="w1s1">3 sets</string>
+    <string name="w1r1">30 reps</string>
+    <string name="w1e1">90 rest</string>
+
+    <string name="w1s2">5 sets</string>
+    <string name="w1r2">10 reps</string>
+    <string name="w1e2">10 rest</string>
+
+    <!--Week 2 sets and reps and rests-->
+    <string name="w2s1">3 sets</string>
+    <string name="w2r1">25 reps</string>
+    <string name="w2e1">70 rest</string>
+
+    <string name="w2s2">4 sets</string>
+    <string name="w2r2">15 reps</string>
+    <string name="w2e2">15 rest</string>
+
+    <!--Week 3 sets and reps and rests-->
+    <string name="w3s1">4 sets</string>
+    <string name="w3r1">20 reps</string>
+    <string name="w3e1">50 rest</string>
+
+    <string name="w3s2">4 sets</string>
+    <string name="w3r2">20 reps</string>
+    <string name="w3e2">20 rest</string>
+
+    <!--Week 4 sets and reps and rests-->
+    <string name="w4s1">4 sets</string>
+    <string name="w4r1">15 reps</string>
+    <string name="w4e1">40 rest</string>
+
+    <string name="w4s2">3 sets</string>
+    <string name="w4r2">25 reps</string>
+    <string name="w4e2">25 rest</string>
+
+    <!--Week 5 sets and reps and rests-->
+    <string name="w5s1">5 sets</string>
+    <string name="w5r1">10 reps</string>
+    <string name="w5e1">30 rest</string>
+
+    <string name="w5s2">3 sets</string>
+    <string name="w5r2">30 reps</string>
+    <string name="w5e2">30 rest</string>
+
+</resources>
