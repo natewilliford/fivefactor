@@ -17,15 +17,48 @@ import static com.example.android.firsttry.R.string.d1;
  */
 public class dynamicclass extends AppCompatActivity {
 
+    private int i;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(dynamic);
 
         //<!--When the app opens, it should call to the counter variable and take it in to decide which layout to load dynamically-->
-        int i=22;
+        i=22;
 
-        //<!--Changing the day-->
+
+        updateLayout();
+
+        /*
+                // Get user's name
+                EditText nameField = (EditText) findViewById(R.id.name_field);
+                Editable nameEditable = nameField.getText();
+                String name = nameEditable.toString();
+
+                *//**
+                 * This method displays the given quantity value on the screen.
+                 *//*
+        private void displayQuantity ( int numberOfCoffees){
+            TextView quantityTextView = (TextView) findViewById(
+                    R.id.quantity_text_view);
+            quantityTextView.setText("" + numberOfCoffees);
+        }*/
+
+        //<!--Making the button go-->
+        Button dynamicbuttons = (Button) findViewById(R.id.dynamicbutton);
+        dynamicbuttons.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                //<!--Press the Done button and up the global counter-->
+                i = i + 1;
+                updateLayout();
+            }
+        });
+        }
+    }
+
+    private void updateLayout() {
+            //<!--Changing the day-->
         TextView dynamicdays = (TextView) findViewById(R.id.dynamicday);
         switch (i) {
             case 1:case 6:case 11:case 16:case 21:
@@ -299,30 +332,5 @@ public class dynamicclass extends AppCompatActivity {
             case 16:case 17:case 18:case 19:case 20:case 21:case 22:case 23:case 24:case 25:
                 cb9s.setVisibility(View.GONE);
                 cb10s.setVisibility(View.GONE); break;
-        }
-
-        /*
-                // Get user's name
-                EditText nameField = (EditText) findViewById(R.id.name_field);
-                Editable nameEditable = nameField.getText();
-                String name = nameEditable.toString();
-
-                *//**
-                 * This method displays the given quantity value on the screen.
-                 *//*
-        private void displayQuantity ( int numberOfCoffees){
-            TextView quantityTextView = (TextView) findViewById(
-                    R.id.quantity_text_view);
-            quantityTextView.setText("" + numberOfCoffees);
-        }*/
-
-        //<!--Making the button go-->
-        Button dynamicbuttons = (Button) findViewById(R.id.dynamicbutton);
-        dynamicbuttons.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View view) {
-                //<!--Press the Done button and up the global counter-->
-                i = i + 1;
-            }
-        });
         }
     }
